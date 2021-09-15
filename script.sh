@@ -1,7 +1,7 @@
 #Update script of UserBot by @marshmello61
 #Some fixes and imported by @RoyalBoyPriyanshu
 
-repo="slam-tg-mirror-bot"
+repo="slam-mirrorbot"
 rm -rf ${repo}
 
 echo "You're running the slam mirror bot Updater script"
@@ -32,7 +32,7 @@ fi
 
 echo " "
 echo "Updating your slam-mirrorbot"
-git pull https://github.com/breakdowns/slam-tg-mirror-bot.git
+git pull https://github.com/SlamDevs/slam-mirrorbot.git
 git diff
 git commit -m "updated 🥺"
 git push
