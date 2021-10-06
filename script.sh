@@ -32,7 +32,7 @@ fi
 
 echo " "
 echo "Updating your slam-mirrorbot"
-git pull https://github.com/SlamDevs/slam-mirrorbot.git
+git pull https://github.com/breakdowns/slam-mirrorbot
 git diff
 git commit -m "updated 🥺"
 git push
